@@ -3,7 +3,7 @@ from telebot import types
 from marketing_info import marketing, del_message
 from product_info import pd_info
 
-# import sqlite3
+import sqlite3
 
 bot = telebot.TeleBot('6996019691:AAGcNyYuHxaHMJna3Z0ZhBb9DeZbUcCuxEo', parse_mode=None)
 
